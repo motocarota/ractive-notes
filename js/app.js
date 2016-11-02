@@ -1,14 +1,16 @@
 import Ractive from 'ractive'
 import template from '../views/app.html'
-import SearchUser from './search-user'
-import Home from './home'
+import Search from './search'
+import HomePage from './homePage'
+import UserPage from './userPage'
 
 const app = new Ractive( {
 	el: '#app',
 	template,
 	components: {
-		SearchUser,
-		Home
+		Search,
+		HomePage,
+		UserPage
 	}
 } )
 
