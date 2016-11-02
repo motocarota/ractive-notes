@@ -19,6 +19,7 @@
     "webpack": "^1.13.3"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "ractive": "^0.8.2"
   }
 }
